@@ -1,6 +1,6 @@
-namespace ProjectName
+namespace RiddlesOfTheSphinx
 {
-  class Program
+  class Riddle
   {
     static void Main()
     {

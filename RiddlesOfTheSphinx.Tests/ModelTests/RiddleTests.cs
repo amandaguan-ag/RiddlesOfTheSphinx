@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ProjectName.Tests
 {
     [TestClass]
-    public class ClassNameTests
+    public class Riddle
     {
         [TestMethod]
         public void MethodName_DescriptionOfBehavior_ExpectedReturnValue()
