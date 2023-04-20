@@ -1,20 +1,20 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using RiddlesOfTheSphinx.Models;
 
-namespace ProjectName.Tests
+namespace RiddlesOfTheSphinx.Tests
 {
     [TestClass]
-    public class Riddle
+    public class RiddleTests
     {
         [TestMethod]
-        public void MethodName_DescriptionOfBehavior_ExpectedReturnValue()
+        public void RiddleConstructor_CreatesInstanceOfRiddle_Riddle()
         {
-            // Any necessary logic to prep for test; instantiating new classes, etc.
-            // Example:
-            // ClassName newClassName = new ClassName();
-            // Act
-            // var result = newClassName.MethodName();
-            // Assert
-            // Assert.AreEqual(EXPECTED RESULT, result);
+          // Arrange
+          // Act
+          Riddle newRiddle = new Riddle();
+      
+          // Assert
+          Assert.AreEqual(typeof(Riddle), newRiddle.GetType());
         }
     }
 }

@@ -1,4 +1,4 @@
-# _Project Name_
+# _Riddles of the Sphinx_
 
 #### By _**Amanda Guan**_
 
