@@ -30,5 +30,19 @@ namespace RiddlesOfTheSphinx.Tests
             // Assert
             Assert.IsTrue(result);
         }
+        [TestMethod]
+        public void AnswerRiddle_IncorrectAnswer_ReturnsFalse()
+        {
+            // Arrange
+            Riddle sphinxRiddle = new Riddle();
+            string expectedRiddle = "What has a heart that doesn't beat?";
+            string expectedAnswer = "A artichoke";
+
+            // Act
+            bool result = sphinxRiddle.AnswerRiddle(expectedRiddle, expectedAnswer);
+
+            // Assert
+            Assert.IsFalse(result);
+        }
     }
 }
